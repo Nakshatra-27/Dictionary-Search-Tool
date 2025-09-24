@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://www.shutterstock.com/image-photo/english-alphabet-made-square-wooden-600nw-2166464797.jpg'); /* or use the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 90%;
+  max-width: 600px;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.container h1 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+}
+
+.search-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  padding: 14px;
+  width: 70%;
+  min-width: 220px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  padding: 14px 22px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#result {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  margin-top: 30px; /* 👈 creates space from search bar */
+}
+
+
+
+#result h2 {
+  margin-top: 0;
+}
+
+#result audio {
+  margin-top: 15px;
+  width: 100%;
+}
